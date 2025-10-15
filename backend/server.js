@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Sample API route
-app.get("/api/hello", (req, res) => {
+app.get("https://mern-y23-render.onrender.com", (req, res) => {
   res.json({ message: "Hello from Node + Express backend!" });
 });
 
